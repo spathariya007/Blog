@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav {
+    margin: 0 auto 0 auto;
+    height: 75px;
+    max-width: 900px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>div {
+    margin-left: 20px;
+}
+
+nav>div>a {
+    text-decoration: none;
+    color: black;
+}
+
+nav>div>a>i {
+    font-size: xx-large;
+}
+
+nav>ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    padding: 10px 12px;
+    background-color: aqua;
+    border-radius: 5px;
+    color: white;
+}
+
+.recent-blog {
+    max-width: 900px;
+    margin: 10vh auto 0 auto;
+}
+
+.recent-blog>div {
+    border-left: 4px solid blue;
+}
+
+footer {
+    max-width: 900px;
+    text-align: center;
+    margin: 0vh auto 0vh auto;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 10vh auto 0 auto;
+}
+
+.container>h2 {
+    margin-left: 50px;
+}
+
+.container>address {
+    margin-left: 50px;
+}
+
+.container>.content {
+    width: inherit;
+}
+
+.flex {
+    display: flex;
+}
+
+.about-content {
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+
+.about-content>p {
+    width: 50%;
+    text-align: justify;
+    padding: 10px;
+}
+
+.about-content>img {
+    width: 50%;
+}
+
+form {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+}
+
+form>h3 {
+    text-align: center;
+}
